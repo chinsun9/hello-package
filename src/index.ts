@@ -1,1 +1,3 @@
-console.log(`Hello Package!`)
+export function printHelloPackage() {
+  console.log(`Hello Package!`);
+}

@@ -1,8 +1,12 @@
 {
-  "name": "hello-package",
+  "name": "@chinsun9/hello-package",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/chinsun9/hello-package.git",
   "author": "chinsun9 <chin_sung@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
